@@ -17,7 +17,7 @@ def info_page():
 
 @app.route("/profile")
 def profile():
-    return flask.render_template("profile.html", user=default_user, page_title="Profile")
+    return flask.render_template("profile.html", user=default_user, page_title="Profile", friends=default_user['friends'])
 
 @app.route("/")
 @app.route("/dashboard")

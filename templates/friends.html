@@ -18,48 +18,31 @@
 	</td>
 
 	<td width="33%">
+		<h1>Remove Friend</h1>
 	</td>
 </tr>
 
 <tr class="tbl-body">
-	<td rowspan="4">
+	<td rowspan="2">
         <ul>
-        	<li>
 		    {% for friend in friends %}
             <li>{{friend}}</li>
             {% endfor %}
         </ul>
 	</td>
 
-	<td rowspan="4">
+	<td>
         <ul>
         	<li>[links to potential friends]
 		{% for person in suggested_friends %}
-            <li></li>
+            <li>suggested friendo</li>
         {% endfor %}
         </ul>
 	</td>
 
-	<td height="20%">
-
-	</td>
-</tr>
-
-
-
-<tr class="tbl-header">
 	<td>
-		<h1>Remove Friend</h1>
+		stuff to remove friend
 	</td>
 </tr>
-
-<tr class="tbl-body">
-	<td height="20%">
-		<p>stuff to remove a friend</p>
-	</td>
-</tr>
-
-<tr bgcolor="white"><td></td></tr>
-
 </table>
 {% endblock %}
