@@ -1,4 +1,4 @@
-Indicator,Group,State,Subgroup,Phase,Time Period,Time Period Label,Time Period Start Date,Time Period End Date,Value,Low CI,High CI,Confidence Interval,Quartile Range
+Indicator,Group,State,Subgroup,Phase,Time_Period,Time Period Label,Time Period Start Date,Time Period End Date,Value,Low_CI,High_CI,Confidence Interval,Quartile Range
 Symptoms of Anxiety Disorder,National Estimate,United States,United States,1,1,Apr 23 - May 5,04/23/2020 12:00:00 AM,05/05/2020 12:00:00 AM,30.8,30.0,31.7,30.0 - 31.7,
 Symptoms of Anxiety Disorder,National Estimate,United States,United States,1,2,May 7 - May 12,05/07/2020 12:00:00 AM,05/12/2020 12:00:00 AM,30.0,28.9,31.0,28.9 - 31.0,
 Symptoms of Anxiety Disorder,National Estimate,United States,United States,1,3,May 14 - May 19,05/14/2020 12:00:00 AM,05/19/2020 12:00:00 AM,28.2,27.6,28.9,27.6 - 28.9,

@@ -1,1 +1,8 @@
-Indicator,Group,State,Subgroup,Phase,Time Period,Time Period Label,Time Period Start Date,Time Period End Date,Value,Low CI,High CI,Confidence Interval,Quartile Range
+Indicator,Group,State,Subgroup,Phase,Time_Period,Time Period Label,Time Period Start Date,Time Period End Date,Value,Low_CI,High_CI,Confidence Interval,Quartile Range
+Symptoms of Depressive Disorder,By Age,United States,18 - 29 years,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,41.7,39.5,43.9,39.5 - 43.9,
+Symptoms of Depressive Disorder,By Age,United States,30 - 39 years,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,32.8,31.0,34.6,31.0 - 34.6,
+Symptoms of Depressive Disorder,By Age,United States,40 - 49 years,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,31.0,29.5,32.6,29.5 - 32.6,
+Symptoms of Depressive Disorder,By Age,United States,50 - 59 years,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,28.4,26.8,30.2,26.8 - 30.2,
+Symptoms of Depressive Disorder,By Age,United States,60 - 69 years,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,23.6,21.8,25.5,21.8 - 25.5,
+Symptoms of Depressive Disorder,By Age,United States,70 - 79 years,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,16.9,15.1,18.8,15.1 - 18.8,
+Symptoms of Depressive Disorder,By Age,United States,80 years and above,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,12.6,9.7,15.9,9.7 - 15.9,

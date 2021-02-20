@@ -35,5 +35,9 @@ def messages():
 def friends():
     return flask.render_template("friends.html", user=default_user, page_title="Friends", friends=default_user['friends'])
 
+@app.route("/test")
+def dash():
+    return flask.render_template("test.html", user=default_user, page_title="Nicks Sexy Dashboard")
+
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=8080, debug=True)
