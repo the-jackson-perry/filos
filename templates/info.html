@@ -1,13 +1,17 @@
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.js"></script>
+
 {% extends 'base.html' %}
 
 {% block header %}
 <h1>Info</h1>
 {% endblock %}
 
-
-
 {% block contents %}
 
-<p>Some stuff</p>
 
+<!-- Create a div where the graph will take place -->
+<div id="linechart"></div>
+<script "index.js"></script>
+<script type="text/javascript" src="../info.js"></script>
 {% endblock %}
