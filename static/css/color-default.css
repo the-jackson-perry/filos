@@ -1,0 +1,39 @@
+
+.menu-btn {
+	background-color: #dbcb91;
+}
+
+.menu-btn:hover {
+	background-color: #c2b37e;
+}
+
+.other-btn {
+	background-color: #a6996c;
+}
+
+.other-btn:hover {
+	background-color: #c2b37e;
+}
+
+.submit-btn {
+	background-color: #c2b37e;
+}
+
+.submit-btn:hover {
+	background-color: #a6996c;
+}
+
+.plus-btn {
+	background-color: #c2b37e;
+}
+.plus-btn:hover {
+	background-color: #a6996c;
+}
+
+.tbl-header{
+	background-color: #a6996c;
+}
+
+.tbl-body{
+	background-color: #dbd2af;
+}

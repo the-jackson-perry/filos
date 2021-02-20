@@ -1,9 +1,12 @@
 import flask
 from flask import request, make_response, jsonify, redirect
+import random
 
 from datetime import datetime
 
 app = flask.Flask(__name__)
+
+quote_list = ['You are awesome!', 'Have a great day!', "Gimme a smile :)", "Never Give Up!"]
 
 default_user = {'name':'default_user', 'bio':'default_bio', 'color-scheme':'default', 'friends':['friend1', 'friend2', 'friend3']}
 
@@ -22,7 +25,7 @@ def profile():
 @app.route("/")
 @app.route("/dashboard")
 def dashboard():
-    return flask.render_template("dashboard.html", user=default_user, page_title="Dashboard")
+    return flask.render_template("dashboard.html", user=default_user, page_title="Dashboard", quote=quote_list[random.randint(0,len(quote_list)-1)])
 
 @app.route("/messages")
 def messages():
