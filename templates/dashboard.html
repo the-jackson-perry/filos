@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+
+
+{% block header%}
+    <h1>Dashboard</h1>
+{% endblock %}
+
+{% block contents %}
+<table width="100%" style="height: 100%;">
+    <tr class="tbl-header">
+        <td width="33%">
+            <h1>Encouraging Quote</h1>
+        </td>
+
+        <td width="33%">
+            <h1>Active Users</h1>
+        </td>
+
+        <td width="33%">
+            <h1>Your Chats</h1>
+        </td>
+
+    </tr>
+
+    <tr class="tbl-body">
+        <td>
+            {{quote}}
+        </td>
+
+        <td>
+            <ul>
+                Current Online Users:{{active_users}}
+            </ul>
+        </td>
+
+        <td>
+            <ul>
+                {% for convo in conversations %}
+                <li>[name of person linked to convo page]</li>
+                {% endfor %}
+            </ul>
+        </td>
+    </tr>
+</table>
+{% endblock %}
