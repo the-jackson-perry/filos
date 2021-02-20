@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Filos</title>
+	<link rel="stylesheet" type="text/css" href="/static/css/structure1.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/color-{{user['color-scheme']}}.css">
+	<!--<meta name="google-signin-client_id"
+		content="???.apps.googleusercontent.com">-->
+</head>
+
+<body>
+	<table width="100%" height="700">
+		<tr>
+			<!--page header-->
+			<td width="10%" height="15%"><a href="/dashboard"><img src="/static/imgs/logo.png" width="100%"></a></td>
+			<td>
+				<center>{% block header %}{% endblock %}</center>
+			</td>
+		</tr>
+		<tr>
+			<!--the lower part of the page-->
+			<td>
+				<!--left side navigation menu-->
+				<a href="/dashboard"><button class="menu-btn big-btn">Dashboard</button></a><br>
+				<a href="/friends"><button class="menu-btn small-btn">Friends</button></a><br>
+				<a href="/messages"><button class="menu-btn small-btn">Messages</button></a><br>
+				<a href="/info"><button class="menu-btn small-btn">Info</button></a><br>
+				<a href="/profile"><button class="menu-btn small-btn">Profile</button></a><br>
+				<button class="menu-btn small-btn" onclick="signOut();">Logout</button><br>
+				<!--<script>
+					function signOut() {
+						var auth2 = gapi.auth2.getAuthInstance();
+						auth2.signOut().then(function () {
+							console.log('User signed out.');
+						});
+						window.location.pathname = '/login';
+					}
+					function onLoad() {
+						gapi.load('auth2', function () {
+							gapi.auth2.init();
+						});
+					}
+
+				</script>
+				<script src="https://apis.google.com/js/platform.js?onload=onLoad" async defer></script>-->
+			</td>
+
+			<td valign="top">
+				<!--actual contents of the page-->
+				{% block contents %}{% endblock %}
+			</td>
+	</table>
+</body>
+
+</html>
