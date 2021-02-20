@@ -1,0 +1,52 @@
+Indicator,Group,State,Subgroup,Phase,Time_Period,Time Period Label,Time Period Start Date,Time Period End Date,Value,Low_CI,High_CI,Confidence Interval,Quartile Range
+Symptoms of Depressive Disorder,By State,Alabama,Alabama,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,32.7,27.7,38.0,27.7 - 38.0,32.3-38.6
+Symptoms of Depressive Disorder,By State,Alaska,Alaska,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,27.4,22.9,32.2,22.9 - 32.2,26.0-29.3
+Symptoms of Depressive Disorder,By State,Arizona,Arizona,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,34.3,29.9,38.9,29.9 - 38.9,32.3-38.6
+Symptoms of Depressive Disorder,By State,Arkansas,Arkansas,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,33.7,29.8,37.8,29.8 - 37.8,32.3-38.6
+Symptoms of Depressive Disorder,By State,California,California,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,31.2,28.2,34.3,28.2 - 34.3,29.4-32.2
+Symptoms of Depressive Disorder,By State,Colorado,Colorado,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,29.1,24.3,34.4,24.3 - 34.4,26.0-29.3
+Symptoms of Depressive Disorder,By State,Connecticut,Connecticut,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,25.9,21.9,30.3,21.9 - 30.3,20.5-25.9
+Symptoms of Depressive Disorder,By State,Delaware,Delaware,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,26.5,21.2,32.3,21.2 - 32.3,26.0-29.3
+Symptoms of Depressive Disorder,By State,District of Columbia,District of Columbia,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,23.8,17.7,30.8,17.7 - 30.8,20.5-25.9
+Symptoms of Depressive Disorder,By State,Florida,Florida,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,30.7,27.1,34.4,27.1 - 34.4,29.4-32.2
+Symptoms of Depressive Disorder,By State,Georgia,Georgia,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,29.7,25.3,34.4,25.3 - 34.4,29.4-32.2
+Symptoms of Depressive Disorder,By State,Hawaii,Hawaii,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,29.3,24.8,34.1,24.8 - 34.1,26.0-29.3
+Symptoms of Depressive Disorder,By State,Idaho,Idaho,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,34.2,29.8,38.9,29.8 - 38.9,32.3-38.6
+Symptoms of Depressive Disorder,By State,Illinois,Illinois,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,29.5,25.6,33.7,25.6 - 33.7,29.4-32.2
+Symptoms of Depressive Disorder,By State,Indiana,Indiana,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,32.0,28.2,36.1,28.2 - 36.1,29.4-32.2
+Symptoms of Depressive Disorder,By State,Iowa,Iowa,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,25.3,20.4,30.7,20.4 - 30.7,20.5-25.9
+Symptoms of Depressive Disorder,By State,Kansas,Kansas,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,30.5,26.6,34.5,26.6 - 34.5,29.4-32.2
+Symptoms of Depressive Disorder,By State,Kentucky,Kentucky,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,30.6,25.9,35.6,25.9 - 35.6,29.4-32.2
+Symptoms of Depressive Disorder,By State,Louisiana,Louisiana,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,31.7,26.7,37.1,26.7 - 37.1,29.4-32.2
+Symptoms of Depressive Disorder,By State,Maine,Maine,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,25.3,20.6,30.4,20.6 - 30.4,20.5-25.9
+Symptoms of Depressive Disorder,By State,Maryland,Maryland,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,29.5,25.6,33.7,25.6 - 33.7,29.4-32.2
+Symptoms of Depressive Disorder,By State,Massachusetts,Massachusetts,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,23.7,19.8,28.0,19.8 - 28.0,20.5-25.9
+Symptoms of Depressive Disorder,By State,Michigan,Michigan,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,28.6,24.9,32.5,24.9 - 32.5,26.0-29.3
+Symptoms of Depressive Disorder,By State,Minnesota,Minnesota,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,24.2,20.8,27.9,20.8 - 27.9,20.5-25.9
+Symptoms of Depressive Disorder,By State,Mississippi,Mississippi,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,36.5,30.4,42.9,30.4 - 42.9,32.3-38.6
+Symptoms of Depressive Disorder,By State,Missouri,Missouri,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,24.8,21.1,28.9,21.1 - 28.9,20.5-25.9
+Symptoms of Depressive Disorder,By State,Montana,Montana,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,28.4,22.8,34.5,22.8 - 34.5,26.0-29.3
+Symptoms of Depressive Disorder,By State,Nebraska,Nebraska,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,25.2,20.8,30.0,20.8 - 30.0,20.5-25.9
+Symptoms of Depressive Disorder,By State,Nevada,Nevada,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,38.6,34.0,43.3,34.0 - 43.3,32.3-38.6
+Symptoms of Depressive Disorder,By State,New Hampshire,New Hampshire,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,28.8,23.6,34.3,23.6 - 34.3,26.0-29.3
+Symptoms of Depressive Disorder,By State,New Jersey,New Jersey,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,26.8,22.0,32.0,22.0 - 32.0,26.0-29.3
+Symptoms of Depressive Disorder,By State,New Mexico,New Mexico,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,37.6,32.5,43.0,32.5 - 43.0,32.3-38.6
+Symptoms of Depressive Disorder,By State,New York,New York,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,29.3,25.1,33.8,25.1 - 33.8,26.0-29.3
+Symptoms of Depressive Disorder,By State,North Carolina,North Carolina,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,30.5,26.2,35.1,26.2 - 35.1,29.4-32.2
+Symptoms of Depressive Disorder,By State,North Dakota,North Dakota,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,26.8,19.4,35.2,19.4 - 35.2,26.0-29.3
+Symptoms of Depressive Disorder,By State,Ohio,Ohio,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,24.9,21.0,29.0,21.0 - 29.0,20.5-25.9
+Symptoms of Depressive Disorder,By State,Oklahoma,Oklahoma,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,33.5,28.3,39.0,28.3 - 39.0,32.3-38.6
+Symptoms of Depressive Disorder,By State,Oregon,Oregon,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,36.4,31.3,41.8,31.3 - 41.8,32.3-38.6
+Symptoms of Depressive Disorder,By State,Pennsylvania,Pennsylvania,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,20.5,17.7,23.6,17.7 - 23.6,20.5-25.9
+Symptoms of Depressive Disorder,By State,Rhode Island,Rhode Island,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,25.9,21.1,31.3,21.1 - 31.3,20.5-25.9
+Symptoms of Depressive Disorder,By State,South Carolina,South Carolina,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,32.3,26.6,38.4,26.6 - 38.4,32.3-38.6
+Symptoms of Depressive Disorder,By State,South Dakota,South Dakota,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,27.6,22.4,33.4,22.4 - 33.4,26.0-29.3
+Symptoms of Depressive Disorder,By State,Tennessee,Tennessee,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,33.7,28.4,39.3,28.4 - 39.3,32.3-38.6
+Symptoms of Depressive Disorder,By State,Texas,Texas,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,32.4,29.0,35.9,29.0 - 35.9,32.3-38.6
+Symptoms of Depressive Disorder,By State,Utah,Utah,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,28.5,24.8,32.5,24.8 - 32.5,26.0-29.3
+Symptoms of Depressive Disorder,By State,Vermont,Vermont,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,21.4,16.7,26.8,16.7 - 26.8,20.5-25.9
+Symptoms of Depressive Disorder,By State,Virginia,Virginia,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,27.0,23.4,30.9,23.4 - 30.9,26.0-29.3
+Symptoms of Depressive Disorder,By State,Washington,Washington,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,32.2,27.8,36.9,27.8 - 36.9,29.4-32.2
+Symptoms of Depressive Disorder,By State,West Virginia,West Virginia,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,28.0,22.8,33.7,22.8 - 33.7,26.0-29.3
+Symptoms of Depressive Disorder,By State,Wisconsin,Wisconsin,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,23.9,20.1,28.0,20.1 - 28.0,20.5-25.9
+Symptoms of Depressive Disorder,By State,Wyoming,Wyoming,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,31.6,24.4,39.5,24.4 - 39.5,29.4-32.2

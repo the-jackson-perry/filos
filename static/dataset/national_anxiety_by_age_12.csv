@@ -1,4 +1,4 @@
-Indicator,Group,State,Subgroup,Phase,Time Period,Time Period Label,Time Period Start Date,Time Period End Date,Value,Low CI,High CI,Confidence Interval,Quartile Range
+Indicator,Group,State,Subgroup,Phase,Time_Period,Time Period Label,Time Period Start Date,Time Period End Date,Value,Low_CI,High_CI,Confidence Interval,Quartile Range
 Symptoms of Anxiety Disorder,By Age,United States,18 - 29 years,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,46.6,44.3,48.8,44.3 - 48.8,
 Symptoms of Anxiety Disorder,By Age,United States,30 - 39 years,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,42.8,40.9,44.8,40.9 - 44.8,
 Symptoms of Anxiety Disorder,By Age,United States,40 - 49 years,1,12,July 16 - July 21,07/16/2020 12:00:00 AM,07/21/2020 12:00:00 AM,39.9,37.8,42.0,37.8 - 42.0,
