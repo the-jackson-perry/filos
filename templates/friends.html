@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+
+
+
+{% block header%}
+<h1>Friends</h1>
+{% endblock %}
+
+{% block contents %}
+<table width="100%" style="height: 100%;">
+<tr class="tbl-header">
+	<td width="33%">
+		<h1>My Friends</h1>
+	</td>
+
+	<td width="33%">
+		<h1>Suggested Friends</h1>
+	</td>
+
+	<td width="33%">
+	</td>
+</tr>
+
+<tr class="tbl-body">
+	<td rowspan="4">
+        <ul>
+        	<li>[links to friends' profiles]
+		    {% for friend in friends %}
+            <li></li>
+            {% endfor %}
+        </ul>
+	</td>
+
+	<td rowspan="4">
+        <ul>
+        	<li>[links to potential friends]
+		{% for person in suggested_friends %}
+            <li></li>
+        {% endfor %}
+        </ul>
+	</td>
+
+	<td height="20%">
+
+	</td>
+</tr>
+
+
+
+<tr class="tbl-header">
+	<td>
+		<h1>Remove Friend</h1>
+	</td>
+</tr>
+
+<tr class="tbl-body">
+	<td height="20%">
+		<p>stuff to remove a friend>
+	</td>
+</tr>
+
+<tr bgcolor="white"><td></td></tr>
+
+</table>
+{% endblock %}
