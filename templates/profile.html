@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+
+
+
+{% block header%}
+<h1>Profile</h1>
+{% endblock %}
+
+{% block contents %}
+<table width="100%" style="height: 100%;">
+<tr class="tbl-header">
+	<td rowspan=4 width="33%" class="tbl-body">
+		<center>
+		<!--<img src="{{user['profile_photo']}}" width="80%">-->[profile photo]
+        <form method="post" action="/uploadprofilephoto" enctype="multipart/form-data">
+            <br>
+            Upload new profile photo:<br>
+            <input type="file" name="file">
+            <input type="submit" value="Upload!">
+        </form>
+		<br>
+        <form method="post" action="/change-color-scheme">
+            <br>
+            Select a different color scheme:<br>
+            <select id="color" name="color" required style="width: 50%">
+                <option value="default">Default</option>
+			</select>
+		    <input type="submit" value="Change!">
+        </form>
+
+		</center>
+	</td>
+
+	<td width="33%">
+		<h1>User Information</h1>
+	</td>
+
+	<td width="33%">
+		<h1>Active Conversations</h1>
+	</td>
+
+</tr>
+
+<tr class="tbl-body">
+	<td>Screen Name:</h2>
+        user['name']
+		<h2>Bio:</h2>
+		<p>user['bio']</p>
+
+        <button>Edit</button>
+	</td>
+
+	<td rowspan=3>
+		<ul>
+			<li>[name or person linked to convo page]</li>
+            {% for convo in conversations %}
+            <li></li>
+            {% endfor %}
+        </ul>
+	</td>
+</tr>
+
+<tr class="tbl-header">
+	<td>
+		<h1>Friends</h1>
+	</td>
+</tr>
+
+<tr class="tbl-body">
+	<td>
+		<ul>
+			<li>[link to friends' profile pages]</li>
+		    {% for friend in friends %}
+            <li></li>
+            {% endfor %}
+        </ul>
+	</td>
+</tr>
+
+</table>
+{% endblock %}

@@ -5,7 +5,7 @@ from datetime import datetime
 
 app = flask.Flask(__name__)
 
-default_user = {"color-scheme":"default"}
+default_user = {'name':'default_user', 'bio':'default_bio', 'color-scheme':'default'}
 
 @app.route('/')
 def base_page():
