@@ -24,6 +24,10 @@ def profile():
 def dashboard():
     return flask.render_template("dashboard.html", user=default_user, page_title="Dashboard")
 
+@app.route("/messages")
+def messages():
+    return flask.render_template("messages.html", user=default_user, page_title="Messages")
+
 @app.route("/friends")
 def friends():
     return flask.render_template("friends.html", user=default_user, page_title="Friends", friends=default_user['friends'])
