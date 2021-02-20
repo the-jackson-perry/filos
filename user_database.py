@@ -1,6 +1,6 @@
 from google.cloud import datastore
 
-datastore_client = datastore.Client()
+datastore_client = datastore.Client.from_service_account_json('service-account.json')
 
 def save(entity):
     datastore_client.put(entity)
