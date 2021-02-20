@@ -14,7 +14,11 @@ quote_list = ['You are awesome!', 'Have a great day!', "Gimme a smile :)", "Neve
 default_user = {'name':'default_user', 'bio':'default_bio', 'color-scheme':'default', 'friends':['friend1', 'friend2', 'friend3']}
 
 firebase_request_adapter = requests.Request()
+
+
+
 @app.route('/')
+@app.route('/login')
 def root():
     # Verify Firebase auth.
     id_token = request.cookies.get("token")
@@ -39,6 +43,13 @@ def root():
     return render_template(
         'login.html',
         user_data=claims, error_message=error_message, times=times)
+
+
+@app.route('/setcookie/<user_token>', methods = ['POST', 'GET'])
+def setcookie():
+    resp = make_response(render_template('dashboard.html'))
+    resp.set_cookie('userID', user_token)
+    return resp
 
 
 @app.route('/base')
