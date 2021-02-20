@@ -25,8 +25,8 @@ def dashboard():
     return flask.render_template("dashboard.html", user=default_user, page_title="Dashboard")
 
 @app.route("/friends")
-def dashboard():
-    return flask.render_template("friends.html", user=default_user, page_title="Friends")
+def friends():
+    return flask.render_template("friends.html", user=default_user, page_title="Friends", friends=default_user['friends'])
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=8080, debug=True)
