@@ -15,5 +15,13 @@ def base_page():
 def info_page():
     return flask.render_template("info.html", user=default_user, page_title="Information")
 
+@app.route("/profile")
+def profile():
+    return flask.render_template("profile.html", user=default_user, page_title="Profile")
+
+@app.route("/dashboard")
+def dashboard():
+    return flask.render_template("dashboard.html", user=default_user, page_title="Dashboard")
+
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=8080, debug=True)
