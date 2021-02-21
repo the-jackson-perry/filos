@@ -55,7 +55,7 @@ def base_page():
     return render_template("base.html", user=default_user, page_title="Test")
 
 
-@app.route('/postthemessage')
+@app.route('/postthemessage', methods=['POST'])
 def postthemessage():
     name = request.form.get('screen_name')
     #get message

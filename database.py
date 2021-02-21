@@ -6,7 +6,7 @@ def save(entity):
     datastore_client.put(entity)
 
 
-def addPost(screen_name, message, time):
+def add_post(screen_name, message, time):
     post = {'screen_name': screen_name, 'message': message, 'time': time}
     msg_board = get_board()
     msg_board.insert(0, post)
