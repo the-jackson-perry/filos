@@ -55,6 +55,15 @@ def base_page():
     return render_template("base.html", user=default_user, page_title="Test")
 
 
+@app.route('/postthemessage')
+def postthemessage():
+    name = request.form.get('screen_name')
+    #get message
+    #get datetime from datetime module
+    database.add_post(name, message, time);
+    redirect('/messages')
+
+
 @app.route("/info")
 def info_page():
     return render_template("info.html", user=default_user, page_title="Information")
@@ -67,6 +76,7 @@ def dashboard():
 
 @app.route("/messages")
 def messages():
+    list_of_posts = database.get_posts()
     return render_template("messages.html", user=default_user, page_title="Messages")
 
 if __name__ == '__main__':

@@ -5,5 +5,7 @@
 {% endblock %}
 
 {% block contents %}
-<p>contents of the page will go here</p>
+	{%for item in posts%}
+		<h4>{{item['message']}}</h4>
+	{%endfor%}
 {% endblock %}
