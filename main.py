@@ -5,7 +5,7 @@ import google.oauth2.id_token
 import datetime
 
 import random
-import user_database
+import database
 
 app = Flask(__name__)
 
