@@ -5,7 +5,10 @@
 {% endblock %}
 
 {% block contents %}
-	{%for item in posts%}
+    <div>
+        {%for item in messages%}
 		<h4>{{item['message']}}</h4>
 	{%endfor%}
+    </div>
+	
 {% endblock %}

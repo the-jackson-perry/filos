@@ -7,17 +7,23 @@ def save(entity):
 
 
 def add_post(screen_name, message, time):
+    
     post = {'screen_name': screen_name, 'message': message, 'time': time}
     msg_board = get_board()
-    msg_board.insert(0, post)
+    msg_board['message_list'].append(post)
+    print(msg_board)
     save(msg_board)
 
 
 def get_board():
     key = datastore_client.key('messages', 'm')
     board = datastore.Entity(key)
-    if board is None:
-        board['message_list'] = [{'screen_name': 'Filos Team', 'message': 'Welcome to Felos!', 'time': '2:20pm 2020-02-20'}]
+    print(board)
+    try:
+        board['message_list']
+    except:
+        board['message_list'] = [{'screen_name': 'Filos Team', 'message': 'Welcome to Filos!', 'time': '2:20pm 2020-02-20'}]
+    print(board)
     return board
 
 

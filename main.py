@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, make_response
+from flask import Flask, render_template, request, make_response, redirect
 from google.auth.transport import requests
 from google.cloud import datastore
 import google.oauth2.id_token
@@ -57,11 +57,14 @@ def base_page():
 
 @app.route('/postthemessage', methods=['POST'])
 def postthemessage():
+    print("Here I Am")
     name = request.form.get('screen_name')
-    #get message
+    print(name)
+    message = request.form.get("message")
+    date = str(datetime.time())
     #get datetime from datetime module
-    database.add_post(name, message, time);
-    redirect('/messages')
+    database.add_post(name, message, date);
+    return redirect('/messages')
 
 
 @app.route("/info")
@@ -77,7 +80,8 @@ def dashboard():
 @app.route("/messages")
 def messages():
     list_of_posts = database.get_posts()
-    return render_template("messages.html", user=default_user, page_title="Messages")
+    print(list_of_posts)
+    return render_template("messages.html", user=default_user, messages=list_of_posts, page_title="Messages")
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=8080, debug=True)
