@@ -80,8 +80,11 @@ def dashboard():
 @app.route("/messages")
 def messages():
     list_of_posts = database.get_posts()
-    print(list_of_posts)
     return render_template("messages.html", user=default_user, messages=list_of_posts, page_title="Messages")
+
+@app.route("/aboutUs")
+def aboutUs():
+    return render_template("aboutus.html", user=default_user, page_title="About Us")
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=8080, debug=True)
