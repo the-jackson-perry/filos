@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, make_response
 from google.auth.transport import requests
 from google.cloud import datastore
 import google.oauth2.id_token
@@ -17,9 +17,9 @@ firebase_request_adapter = requests.Request()
 
 
 
-@app.route('/')
+
 @app.route('/login')
-def root():
+def login():
     # Verify Firebase auth.
     id_token = request.cookies.get("token")
     error_message = None
@@ -42,39 +42,32 @@ def root():
 
     return render_template(
         'login.html',
-        user_data=claims, error_message=error_message, times=times)
+        user_data=claims, error_message=error_message, times=times, user=default_user)
 
 
-@app.route('/setcookie/<user_token>', methods = ['POST', 'GET'])
-def setcookie():
-    resp = make_response(render_template('dashboard.html'))
-    resp.set_cookie('userID', user_token)
-    return resp
+@app.route('/newmessage')
+def newmessage():
+    return render_template("newmessage.html", user=default_user, page_title="New Message")
 
 
 @app.route('/base')
 def base_page():
     return render_template("base.html", user=default_user, page_title="Test")
 
+
 @app.route("/info")
 def info_page():
     return render_template("info.html", user=default_user, page_title="Information")
 
-@app.route("/profile")
-def profile():
-    return render_template("profile.html", user=default_user, page_title="Profile", friends=default_user['friends'])
-
+@app.route('/')
 @app.route("/dashboard")
 def dashboard():
-    return render_template("dashboard.html", user=default_user, page_title="Dashboard", quote=quote_list[random.randint(0,len(quote_list)-1)])
+    user_id = request.cookies.get('userID')
+    return render_template("dashboard.html", user=default_user, page_title=user_id, quote=quote_list[random.randint(0,len(quote_list)-1)])
 
 @app.route("/messages")
 def messages():
     return render_template("messages.html", user=default_user, page_title="Messages")
-
-@app.route("/friends")
-def friends():
-    return render_template("friends.html", user=default_user, page_title="Friends", friends=default_user['friends'])
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=8080, debug=True)
