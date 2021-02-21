@@ -63,7 +63,7 @@ def postthemessage():
     message = request.form.get("message")
     date = str(datetime.time())
     #get datetime from datetime module
-    database.add_post(name, message, date);
+    database.add_post(message);
     return redirect('/messages')
 
 
@@ -79,8 +79,7 @@ def dashboard():
 
 @app.route("/messages")
 def messages():
-    list_of_posts = database.get_posts()
-    print(list_of_posts)
+    list_of_posts = database.get_board()
     return render_template("messages.html", user=default_user, messages=list_of_posts, page_title="Messages")
 
 if __name__ == '__main__':

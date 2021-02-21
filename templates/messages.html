@@ -5,10 +5,14 @@
 {% endblock %}
 
 {% block contents %}
-    <div>
-        {%for item in messages%}
-		<h4>{{item['message']}}</h4>
-	{%endfor%}
-    </div>
+    <center><table width=33% border=1>
+
+
+    	{% for m in messages %}
+    	<tr class="tbl-body"><td>
+	        <h4>{{m}}</h4>
+		</td></tr>
+		{% endfor %}
+    </table></center>
 	
 {% endblock %}
