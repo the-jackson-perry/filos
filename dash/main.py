@@ -8,7 +8,6 @@ import os
 
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 import plotly.express as px
 
 anxiety_by_age_12 = pd.read_csv ('./national_anxiety_by_age_12.csv')
